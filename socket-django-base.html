@@ -31,12 +31,26 @@
 		        stream: "orders",
 		        payload: {
 		          action: "subscribe",
+			  pk:'111',	
 		          data: {
-		            action:"update"
+		            action:"update",
 		          },
 		        }
 		    }
+		
 		mgs = JSON.stringify(data);
+
+		//data Json for other env
+		data =	{
+			    "stream": "orders",
+			    "payload": {
+				"action": "subscribe",
+				"pk": "111",
+				"data": {
+				    "action": "update"
+				}
+			    }
+			}
 		ws.send(mgs);
                 
 		
