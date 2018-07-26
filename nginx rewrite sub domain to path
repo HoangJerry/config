@@ -1,0 +1,9 @@
+server {
+    server_name blog.mydomain.com;
+    listen 80;
+
+    rewrite ^ http://mydomain.com/blog$uri permanent;
+
+    access_log /var/log/nginx/blog-access.log;
+    error_log  /var/log/nginx/blog-error.log;
+}

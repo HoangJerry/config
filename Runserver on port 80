@@ -1,0 +1,1 @@
+sudo /opt/bxd_project/env/bin/python /opt/bxd_project/master/bxd/manage.py runserver 0.0.0.0:80

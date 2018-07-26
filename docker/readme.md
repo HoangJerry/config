@@ -58,7 +58,7 @@ End with an example of getting some data out of the system or using it for a lit
 sudo docker run hello-world
 ```
 
-### Commandline 
+## Commandline 
 
 Images list:
 
@@ -104,7 +104,7 @@ Give an example
 
 ## Deployment
 
-###Install new ubuntu:
+### Install new ubuntu:
 ```
 sudo docker pull ubuntu:16.04
 ```
